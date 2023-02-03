@@ -1,0 +1,28 @@
+{
+  "name": "rb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jglobe/rb-test.git"
+  },
+  "author": "jglobe",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.3.1",
+    "gulp-less": "^5.0.0",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-nunjucks-render": "^2.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/jglobe/rb-test/issues"
+  },
+  "homepage": "https://github.com/jglobe/rb-test#readme"
+}

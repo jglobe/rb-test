@@ -1,0 +1,134 @@
+.card {
+  padding: 30px;
+  height: 405px;
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card:hover .card__more {
+  transform: translateY(0);
+}
+.card__image {
+  margin-left: auto;
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+  align-self: flex-end;
+}
+.card__button {
+  padding: 15px 6px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  background: var(--main-color);
+  border-width: 0;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.card__info {
+  margin-top: 30px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.card__type {
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.card__name {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #3E3E3E;
+}
+.card__tags {
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+.tag {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tag__icon {
+  margin-right: 12px;
+}
+.card__more {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  background-color: var(--main-color);
+  transform: translateY(-99%);
+}
+.more {
+  position: relative;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.more__name {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.moreInfo__title {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.moreInfo__info {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.more__price {
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.more__button {
+  padding: 15px 6px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+  border-width: 0;
+  border-radius: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.more__inner {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+}
+@media (max-width: 360px) {
+  .card {
+    width: 100%;
+  }
+}

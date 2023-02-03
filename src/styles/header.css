@@ -1,0 +1,25 @@
+.header {
+  margin: 60px auto 30px;
+  width: 100%;
+  max-width: 1192px;
+}
+.header__title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 46px;
+  color: #3E3E3E;
+}
+@media (max-width: 360px) {
+  .header {
+    margin: 15px 22px;
+    max-width: 100%;
+    width: auto;
+  }
+  .header__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
+  }
+}

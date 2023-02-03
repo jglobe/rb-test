@@ -1,0 +1,12 @@
+{% extends "layouts/layout.html" %}
+{% set css = 'styles/styles.css' %}
+
+{% block content %}
+{% include 'templates/menu.html' %}
+  <section class="cards">
+    {%include 'templates/card.html' %}
+    {%include 'templates/card.html' %}
+    {%include 'templates/card.html' %}
+    {%include 'templates/card.html' %}
+  </section>
+{% endblock %}
